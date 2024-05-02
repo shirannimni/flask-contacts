@@ -8,8 +8,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 app.app_context()
 
-app = Flask(__name__)
-
 
 
 class Contact(db.Model):
